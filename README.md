@@ -9,7 +9,7 @@ Create New Folder ‘iig’ in the Glabs Project Shell > src/js/application
 Clone repo to the this folder
 ```
 
-## Download Dependencies 
+## Download Dependencies to application shell
 
 ```
 npm i react-swipeable-views
@@ -102,7 +102,7 @@ An example of the Grid Node from the Amex campaign is as follows
 
 ```
 
-##Editing the Layout
+## Editing the Layout
 
 In most cases the Grid layout can be edited via the CSS channels, mentioned below.
 However if you wish to change the number of items in the rows, use the “Griditem.js” file under  >iig/js to amend the col-* to how ever you wish
@@ -117,4 +117,4 @@ This file contains the basic layout of the modal overlay.
 All Applications pull from the shells theme styles from baseline colors and fonts. You do however have control over elements in a specific application.
 In the Application folder Navigate to >scss/_Application_Variables.scss for a host of settings for the grid layout and tone.
 
-_Dialod.scss and _ImageGrid.scss also have a number of Media Query options to play around with as well.
+_Dialog.scss and _ImageGrid.scss also have a number of Media Query options to play around with as well.
