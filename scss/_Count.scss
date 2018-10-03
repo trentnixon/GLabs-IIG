@@ -1,0 +1,15 @@
+.count{
+    position: absolute;
+    color: $countColor;
+    background-color: $countBgColor;
+    padding: 5px;
+    
+    width: 3em;
+    text-align: center;
+
+
+    top:$countTop;
+    right:$countRight;
+    bottom:$countBottom;
+    left:$countLeft;
+}

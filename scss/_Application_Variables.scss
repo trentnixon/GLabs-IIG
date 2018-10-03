@@ -1,0 +1,62 @@
+
+/************ 
+** Application Variables
+*************/
+
+// The Grid
+
+$TheGridPadding:auto;
+$TheGridBGColor:$SecondaryColor;
+
+$color_1:#00A194;
+
+// Grid Items Outer
+$Item_Padding:3px;
+$Item_Height:300px; 
+$Item_BorderRadius:1px 1px 1px 1px;
+$Item_BoxShadow:0px 1px 5px 0px $SecondaryColor;
+$Item_Border:0px solid $PrimaryColor;
+
+
+// Action Bar Not Active
+$Action_BgColor:transparent;
+$Action_Color:white;
+
+// Action Bar Hover
+$Action_Active_BgColor:rgba(246,119,4,.5);
+$Action_Active_Color:$TertiaryHColor;
+$Action_Active_Border_Color:$TertiaryColor;
+$Action_Active_Font_Size:1.8em;
+$Action_Active_Line_Height:1em;
+
+
+
+// Count Images
+$CountOffset:0;
+$countBgColor:$TertiaryColor;
+$countColor:$PrimaryHColor;
+$countTop:$CountOffset;
+$countRight:$CountOffset;
+$countBottom:unset; 
+$countLeft:unset;
+
+
+// Dialogs
+$Dialog_Screen_BG:rgba(255,255,255,.3);
+$Dialog_BG:rgba(33,51,58,.9);
+$Dialog_Border_Color:$color_1;
+
+
+// Cards
+$CardOuterWidth:80%;
+$CardContentPadding:30px 30px 0 30px;
+
+
+// Stepper
+$StepperBgColor:transparent;
+$ActiveDot:$PrimaryHColor;
+$NonActiveDot:rgba(31, 106, 242, 0.4);
+$DotWidth:7px;
+$buttonColor:$PrimaryHColor;
+// Active Card
+$activeColor:$Quaternary;

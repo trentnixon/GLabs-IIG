@@ -1,0 +1,202 @@
+{
+    "data":"Json[APPLICATION] Completed", 
+    "DisplayCategory":false,
+    "Icons":{
+        "iconView":"image_search",
+        "IconClose":"close" 
+     },
+     "Grid":[
+        {
+            "Thumb":"Perspective.png",
+            "IMG":"Perspective.png",
+            "Title":"New perspective",
+            "category":"",
+            "GridMeta":{
+               "Title":"CES",
+               "Sub":"the global stage for innovation",
+               "When":"8-11 January 2019",
+               "Where":"Las Vegas, US",
+               "What":"<a href=\"https://www.ces.tech/Conference/Conference-Program.aspx\" target=\"_blank\"> CES </a> is considered the world stage on which next-generation innovations are introduced to the marketplace. With more than 300 sessions headed up by industry leaders and visionary speakers, CES will delve into key and emerging trends in the industry. Speakers include IBM chairman, president and CEO Ginni Rometty, who will discuss how technologies such as AI and quantum, when built on a foundation of trust and transparency, will drastically change business and society for the better.",
+               "While":"Sure, you can spend some time in the glittering grounds of the 24-hour casinos and take in the non-stop action of the Strip, but don’t miss the opportunity to explore the surreal and spectacular desert landscape of nearby Death Valley. After all, a change in environment can help change your perspective and stimulate new ways of thinking. Take a drive (or hike) among the labyrinth of gold-coloured hills of Golden Canyon, view the rainbow-hued sedimentary rocks on Artist’s Drive, or the colourful Badlands loop on an ancient lakebed."
+               
+           },
+           "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{
+            "Thumb":"Social.png",
+            "IMG":"Social.png",
+            "Title":"Social networking",
+            "category":"",
+            "GridMeta":{
+               "Title":"SXSW",
+               "Sub":"unparalleled discovery across tech, film and music industries",
+               "When":"March 2019",
+               "Where":"Austin, Texas, US",
+               "What":"<a href=\"https://www.sxsw.com/conference/\" target=\"_blank\">South by Southwest (SXSW)</a> is a multinational melting pot of entrepreneurs, creatives, innovators and influencers exploring what’s next in the worlds of film, culture, music and technology. SXSW features a variety of sessions, screenings and exhibitions along with plenty of networking opportunities. Speakers in 2018 included US Senator Bernie Sanders, director and actor Spike Lee and YouTube CEO Susan Wojcicki.",
+               "While":"Running alongside the SXSW Conference are the SXSW Music and Film festivals. It’s like three events rolled up in one, so don’t forget the Berocca! Think 10 days of networking and partying. SXSW is spread across the city of Austin, making the city a hub of activity. Take in some fresh air – and recharge – with a dip at Hamilton Pool, a natural swimming grotto, and if you feel like a break from SXSW food, take a tour around the many BBQ and food trucks in the city."
+               
+           },
+           "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{
+            "Thumb":"Clear.png",
+            "IMG":"Clear.png",
+            "Title":"Clear mind",
+            "category":"",
+            "GridMeta":{
+                "Title":"Idea Exchange",
+                "Sub":"sharing collective wisdom and ideas",
+                "When":"November 2018",
+                "What":"If you didn’t manage to catch the seminars in Brisbane, Melbourne, Perth or Adelaide, Sydney is your last chance to catch the final <a href=\"https://business.americanexpress.com.au/ideaexchange\" target=\"_blank\"> Idea Exchange</a>, providing advice and inspiration to help small and medium-sized businesses thrive and grow. Host and business mastermind Andrew Banks will lead an interactive panel discussion with speakers from the Melbourne event (see ‘Cultural cred’) along with Samantha Wills, founder of iconic jewellery brand Samantha Wills and the Samantha Wills Foundation. There’s also the opportunity to <a href=\"https://business.americanexpress.com.au/ideaexchange\" target=\"_blank\"> win an intimate lunch workshop</a> with Banks, which is open to just 20 card members.",
+                "While":"Hit the waves at Sydney’s iconic Bondi Beach for a surfing lesson that will leave you invigorated and able to hang 10 with the best of them – it may even clear your mind and stimulate some creative thinking. Back on land, don’t miss the Bondi to Coogee walk – a stunning 6km stretch of clifftop coastal walking track, with plenty of cafes and hotels to stop at along the way. Catch a cab back to Bondi Icebergs to celebrate the end of the day with sundowners.",
+                "Where":"Sydney Australia"
+
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{ 
+            "Thumb":"Ideas.png",
+            "IMG":"Ideas.png",
+            "Title":"Incubate ideas",
+            "category":"",
+            "GridMeta":{
+                "Title":"Fortune Global Tech Forum",
+                "Sub":"exploring innovation and the AI revolution",
+                "When":"29-30 November 2018",
+                "What":"The <a href=\"https://www.fortuneconferences.com/fortune-global-tech-2018/\" target=\"_blank\" >Fortune Global Tech Forum</a> brings together some of the most innovative people in technology, media, entertainment and finance. This year’s event will explore the innovation revolution unfolding in China and the rest of the world, with the theme of ‘Innovation in the Age of AI’. The forum will focus on the most promising startups and fast-moving trends in the industry. Speakers will include Fortune Asia editor Clay Candler, Byton co-founder and CEO Dr Carsten Breitfeld, and IBM Asia Pacific chairman and CEO Harriet Green.",
+                "While":"Kick back and relax with a cruise on the stunning Pearl River or visit the futuristic cube-like Guangdong Museum. Taking some downtime and allowing your mind to wander can not only be good for your mental health, but can help incubate ideas through subconscious thought. Or indulge in some Cantonese yum cha to mix a business brunch with pleasure.",
+                "Where":"Guangzhou, China"
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{ 
+            "Thumb":"Illuminate.png",
+            "IMG":"Illuminate.png",
+            "Title":"Ideas illuminated",
+            "category":"",
+            "GridMeta":{
+                "Title":"Brainstorm Design",
+                "Sub":"harnessing the power of great design",
+                "When":"5-7 March 2019",
+                "Where":"Singapore",
+                "What":"<a href=\"https://www.fortuneconferences.com/brainstorm-design-2019/about-brainstorm-design/\" target=\"_blank\">Brainstorm Design 2019</a> will explore the increasingly crucial nexus between business and design, and how the world’s most successful companies are embracing design thinking in every aspect of what they do. Held for the first time in March 2018, the three-day event brought together leading executives and the world’s most talented designers and was considered a resounding success. Speakers at the 2018 conference included British designer Tom Dixon and Airbnb co-founder Joe Gebbia.",
+                "While":"Singapore is regarded as one of the safest and cleanest cities in the world, so take advantage with a night-time stroll through the Marina Bay area. Home to some of the city’s most iconic hotels and skyscrapers, the bay literally lights up at 10pm with a spectacular light show that illuminates the water and nearby landmarks. Who knows, this might even help spark your next great business idea! Or take a skywalk through the Supertrees in the stunning Gardens by the Bay."
+                
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{  
+           "Thumb":"Cred.png",
+           "IMG":"Cred.png",
+           "Title":"Cultural cred",
+           "category":"",
+           "GridMeta":{
+                "Title":"Idea Exchange",
+                "Sub":"where powerful ideas are exchanged",
+                "When":"17 October 2018",
+                "Where":"Melbourne, Australia",
+                "What":"The <a href=\"https://business.americanexpress.com.au/ideaexchange\" target=\"_blank\"> Idea Exchange </a> is a series of seminars across Australia for American Express Business customers hosted by entrepreneur and Shark Tank co-host Andrew Banks. The seminars will focus on topics including defining your vision and growth plan, managing cash flow and making technology work for you. Attendees will be challenged and inspired by big ideas and leave equipped with new knowledge to apply in business. Speakers at the Melbourne seminar include Tim Reid, author of The Boomerang Effect and host of Australia’s leading marketing podcast; Amanda Fisher, CFO and author of Unscramble Your Numbers; Felicity Rodgers, founder and creative director of Cargo Crew; and Justin Dry, entrepreneur and co-founder and joint CEO of Vinomofo.",
+                "While":"Hone your wine knowledge by taking a tour of Victoria’s beautiful wine regions. Both the Yarra Valley and Mornington Peninsula are within a 90-minute drive of the city. Treat yourself to a hosted tour, stopping at cellar doors, where all you have to worry about is whether to buy the Chardonnay or Pinot Noir. Kudos to you come the next business lunch where you can show off your new-found sommelier skills."
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+       },{ 
+            "Thumb":"Tech.png",
+            "IMG":"Tech.png",
+            "Title":"Tech detox",
+            "category":"",
+            "GridMeta":{
+                "Title":"Startup Grind",
+                "Sub":"taking entrepreneurs and innovators to the next level",
+                "When":"February 2019",
+                "Where":"Redwood City (Silicon Valley), US",
+                "What":"<a href=\"https://www.startupgrind.com/conference/\" target=\"_blank\"> Startup Grind </a> brings together a community of startups, partners, investors, thought leaders and worldwide directors for two days of invaluable education, connection and inspiration. Great for startups wanting to gain exposure and expand their networks. The two-day event features diverse speakers with rich backgrounds, including Airbnb co-founder and CPO Joe Gebbia, and TaskRabbit co-founder and CTO Brian Leonard.",
+                "While":"Silicon Valley is home to the world’s most prominent startups and global technology companies, including Apple, Facebook and Google. But information overload is not constructive, so work smarter, not harder, by taking a break from the tech world. Head less than 10 minutes’ drive out of the Valley to Redwood National Park and bask in the best of the natural world’s offerings. This verdant landscape is home to the tallest trees on earth – the redwoods – and offers the perfect juxtaposition to the conference."
+                
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{
+             "Thumb":"Cultural.png",
+             "IMG":"Cultural.png",
+             "Title":"Cultural sensitivity",
+             "category":"",
+             "GridMeta":{
+                "Title":"Future Technology Week",
+                "Sub":"where innovators dare to try",
+                "Where":"Dubai, UAE",
+                "When":"2-4 April 2019",
+                "What":"<a href=\"https://www.futuretechweek.com/\" target=\"_blank\">Future Technology Week</a> is considered the world’s leading platform on which to launch game-changing products that need to be adopted early. The conference will showcase cutting-edge technologies – in the areas of cybersecurity, the Internet of Things, artificial intelligence and digital cities – that will shape the way we live. Speakers include Dr Angelo Niko Grubišić, Lecturer of Astronautics, Southampton University; and Richard Browning, founder and chief test pilot, Gravity Industries.",
+                "While":"Dubai is a land of extremes, where you can go from luxury shopping in skyscraper malls to haggling in the local souks. Cultural awareness is an advantage in any marketplace, so make the most of everything that this exotic land and its customs have to offer. One highlight not to miss is a camel ride into the desert with a traditional Emirati dinner and overnight stay in a Bedouin-style camp."
+                
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+             "Description":[""]
+         },{ 
+            "Thumb":"Fears.png",
+            "IMG":"Fears.png",
+            "Title":"Fear fix",
+            "category":"",
+            "GridMeta":{
+                "Title":"World Business Forum",
+                "Sub":"stimulating new thinking and motivating action",
+                "When":"28-29 May 2019",
+                "Where":"Sydney, Australia",
+                "What":"The <a href=\"https://www.wobi.com/wbf-sydney/#what-is\" target=\"_blank\">World Business Forum</a> boasts speakers including CEOs, entrepreneurs, big thinkers and high achievers, addressing different aspects of a central theme. The 2019 forum in Sydney will focus on the ‘exponential age’ – an age of movements, possibility, empowerment and impact – with speakers including Jeff Immelt, chairman and CEO of General Electric from 2001-2017, and Marcus Buckingham, global researcher and author of First, Break All the Rules and Now, Discover Your Strengths.",
+                "While":"It’s hard to beat the BridgeClimb for killer views of Sydney Harbour and surrounds. It may make your heart beat faster, but learning to deal with fears and nerves can be beneficial in the boardroom. Take your pick of climbs – from a 1.5-hour sampler to the full 3.5-hour options including twilight, night and dawn climbs. Alternatively, jump on a Sydney Seaplane for a scenic flight up to Whale Beach for a mouth-watering lunch at the iconic Jonah’s Restaurant."
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+            "Description":[""]
+        },{
+             "Thumb":"Refocus.png",
+             "IMG":"Refocus.png",
+             "Title":"Mind refocus",
+             "category":"",
+             "GridMeta":{
+                "Title":"Collision",
+                "Sub":"where great leaders and ideas collide",
+                "When":"20-23 May 2019",
+                "Where":"Toronto, Canada",
+                "What":"<a href=\"https://collisionconf.com/\" target=\"_blank\">Collision</a> is considered North America’s fastest growing tech conference, attracting a global audience including CEOs, founders and influencers from a range of industries. BuzzFeed has called it “the coolest tech conference on the planet” and past speakers have included Al Gore and Reddit co-founder Alexis Ohanian. Attendees praise the ample networking opportunities and parties.",
+                "While":"Take a side trip – a scenic 1.5-hour drive – from Toronto to visit Niagara Falls. It’s the ideal spot to clear your mind and refocus. Alternatively, you can strap yourself in for a helicopter trip over the falls. If you’re tight for time and don’t want to leave the city limits, check out Toronto’s Distillery District, where Victorian industrial warehouses have been converted into galleries, boutiques, artist studios and restaurants."
+                
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+             "Description":[""]
+         }, { 
+            "Thumb":"NYC.png",
+            "IMG":"NYC.png",
+            "Title":"Inspiration intox",
+            "category":"",
+            "GridMeta":{
+               "Title":"99U",
+               "Sub":"turn your ideas into a reality",
+               "When":"8-10 May, 2019",
+               "Where":"New York City, US",
+               "What":"If you’re after pragmatic, real-world insights from industry leaders across creative fields, then check out the <a href=\"https://conference.99u.com/\" target=\"_blank\">99U</a> conference, which offers three days of insightful talks and stimulating workshops. There are expert-hosted breakout sessions to explore new ideas and methodologies around leadership, teamwork and productivity, and hands-on workshops that give you a chance to dive into new disciplines, trends and technologies. Past speakers have included Ian Spalter, head of design at Instagram; and Todd Yellin, vice president of product, Netflix.",
+               "While":"New York is known as the city that never sleeps, and with good reason – there is SO much to see and do. Wherever you go, this city is as inspiring as it is intoxicating, both personally and professionally. For a true cultural immersion into the melting pot that is NYC you can’t beat wandering the streets like a local. Put these on your to-do list: cycle around Central Park, hit the galleries and shopping streets of the Upper East Side, stroll across the Brooklyn Bridge, and treat your ears to some soul sounds in Harlem."
+               
+           },
+           "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+           "Description":[""]
+        },
+
+
+         {
+              "Thumb":"Gastronomic.png",
+              "IMG":"Gastronomic.png",
+              "Title":"Gastronomic networking",
+              "category":"",
+              "GridMeta":{
+                "Title":"Rise",
+                "Sub":"where the giants of the web assemble",
+                "When":"8-11 July 2019",
+                "Where":"Hong Kong, China",
+                "What":"<a href=\"https://riseconf.com/\" target=\"_blank\">RISE</a> is considered one of the largest tech conferences on the calendar, with three days of talks, pitches and corroborations. Last year it attracted 70,000 people from more than 170 countries. Next year, leaders from the world’s biggest companies and most exciting startups will converge on Hong Kong to share their stories and experiences. Speakers at the 2018 conference included Microsoft president Brad Smith and Amazon CTO Werner Vogels.",
+                "While":"Arguably one of the world’s culinary capitals, Hong Kong boasts palate-pleasing cuisine that includes everything from Cantonese, Sichuanese and Japanese to French and Lebanese. Treat your taste buds by dining at the three-Michelin-starred Lung King Heen, in the Four Seasons Hotel. As well as offering a gastronomic feast, it’s the ideal spot for some leisurely networking. But be warned… you need to book WAY in advance because it is so good."
+            },
+            "CTA":["<a href=\"https://www.americanexpress.com/au/content/business-credit-cards/the-american-express-business-explorer-card/\" target=\"_blank\"> Make the most of your points </a> by travelling to expand your business and mind with the American Express Business Explorer card"],
+              "Description":[""]
+          }
+    ]
+}

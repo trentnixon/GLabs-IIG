@@ -1,0 +1,227 @@
+@mixin transition() {
+    transition: all .4s;
+  }
+
+ // Action Bar Inheritancy 
+  %ActiveItem{
+    height: 100%;
+    background-color:transparent;
+  }
+
+  %ActiveItemH2{
+     color: $Action_Active_Color;
+     font-size: $Action_Active_Font_Size;
+     line-height: $Action_Active_Line_Height;
+     text-align: left;
+     font-family:  $FontFamilyHeaderBold;
+     letter-spacing: 1px;
+     margin-bottom: 4px;
+  }
+
+  %ActiveItemH4{
+    color: $Action_Active_Color;
+    font-size: .9em;
+    line-height: 1em;
+    text-align: left;
+    font-family:  $FontFamilyHeader;
+ }
+
+  %Activei{
+    color: $Action_Active_Color;
+    font-size: $Action_Active_Font_Size;
+    line-height: $Action_Active_Line_Height;
+    text-align: left;
+    width: 100%; 
+    float: unset;
+    opacity: 1;
+    display: block;
+  }
+  
+
+
+.GridItem{ 
+
+    padding: $Item_Padding;
+    overflow: hidden;
+
+    .ItemOuter{ 
+        position: relative;
+        -webkit-border-radius: $Item_BorderRadius;
+        border-radius: $Item_BorderRadius;
+        -webkit-box-shadow: $Item_BoxShadow;
+        box-shadow: $Item_BoxShadow; 
+        border:$Item_Border;
+        
+        .CardCTA{
+            display: flex;
+
+            a.GridItemCTA{
+                width: 100%;
+                display: inline-block;
+                background-size: cover;
+                background-position: center center;
+                cursor: pointer;
+                position: relative;
+               
+                .ActionBar{
+                    background-color:$Action_Active_BgColor;
+                    background-image: URL("https://gdn-cdn.s3.amazonaws.com/embed/2018/09/amex-image-grid/assets/images/Grid_Images/dots.png");
+                    background-position: center bottom;
+                    background-size: cover;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0px;
+                    padding: 3% 3%;
+                    height: 100%;
+                    text-align: left;
+                    @include transition();
+
+                    .iconLabel{
+                            position: absolute;
+                            bottom: 3%;
+                            left: 3%;
+                        
+                            @include transition();
+                            h2{
+                                @extend %ActiveItemH2;
+                                @include transition();
+                               // text-shadow: 1px 1px 5px #2f2f2f;
+                            }
+                            h4{
+                                @extend %ActiveItemH4;
+                                @include transition();
+                               // text-shadow: 1px 1px 5px #2f2f2f;
+                            }
+                            i{
+                                display:table-column-group;
+                                @include transition();
+                            }
+                    }
+                }
+            }
+        }
+
+        .CardCTA:hover{
+            a.GridItemCTA{
+                .ActionBar{               
+                    @extend  %ActiveItem;
+                    
+                    .iconLabel{
+                        @include transition();
+                        bottom: 12%;
+                        
+                        h2{
+                            @include transition();
+                            @extend %ActiveItemH2;
+                        }
+                        i{
+                            @include transition();
+                            @extend   %Activei;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.GridItem.ActiveItem{
+    .ItemOuter{
+            border:1px solid $Action_Active_Border_Color;
+        .CardCTA{ a.GridItemCTA{
+            .ActionBar{
+                @extend  %ActiveItem;
+                .iconLabel{
+                    @include transition();
+                    bottom: 3%;
+                    h2{@extend %ActiveItemH2;}
+                    i{@extend   %Activei;}
+                }
+            }
+        }}
+    }   
+}
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .GridItem{ 
+        .ItemOuter{
+            .CardCTA{
+                a.GridItemCTA{
+                    height:($Item_Height/1.5);
+
+                    .iconLabel{ 
+                        h2{font-size: 1.4em !important;}
+                        h4{font-size: .8em !important;}
+                    }
+                }
+            }
+        }
+}
+}
+
+@media only screen and (min-width : 576px) and (max-width : 768px) {
+    .GridItem{ 
+        .ItemOuter{
+            .CardCTA{
+                a.GridItemCTA{
+                    height:($Item_Height/1.5);
+                    .iconLabel{ 
+                        h2{font-size: 1.4em !important;}
+                        h4{font-size: .8em !important;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium Phones ----------- */
+@media only screen and (min-width : 480px) and (max-width : 576px) {
+    .GridItem{ 
+        .ItemOuter{
+            .CardCTA{
+                a.GridItemCTA{
+                    height:($Item_Height/1.5);
+                }
+            }
+        }
+    }
+}
+
+/* Small Phones ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    
+    .GridItem{ 
+            .ItemOuter{
+                .CardCTA{
+                    a.GridItemCTA{
+                        height:($Item_Height/1.5);
+                        .iconLabel{ 
+                            h2{font-size: 1.2em !important;}
+                            h4{font-size: .8em !important; line-height: 1.2em !important;}
+                        }
+                    }
+                }
+            }
+    }
+}
+    
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) { 
+    .GridItem{ 
+        .ItemOuter{
+            .CardCTA{
+                a.GridItemCTA{
+                    height:($Item_Height/1.5);
+                    .iconLabel{ 
+                        h2{font-size: 1.2em !important;}
+                        h4{font-size: .8em !important; line-height: 1.2em !important;}
+                    }
+                }
+            }
+        }
+}
+}

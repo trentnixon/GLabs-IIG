@@ -1,0 +1,350 @@
+@at-root {
+
+// Filter Dialog
+
+// inheritance
+%D_Screen{
+    background-color:$Dialog_Screen_BG;
+}
+
+%D{
+    background-color:$Dialog_BG;
+}
+
+%D_h2{ 
+    color:$color_1;
+    font-size:1.5em;
+    line-height:$FontMedLine;
+    font-family: $FontFamilyHeader;
+    margin:0 0 10px 0;
+    font-weight:800;
+}
+
+%D_p{
+    color:$PrimaryColor;
+    font-size:1em;
+    line-height:1.4em;
+    margin:0px 0 20px;
+    font-family: $FontFamilyBody;
+}
+
+%D_Button{
+    color:$SecondaryColor;
+    border: 1px solid $SecondaryColor;
+}
+
+%D_Form{
+    color:$SecondaryColor;   
+}
+
+.FilterDialog{
+        @extend %D_Screen;
+
+        .MuiDialog-paperWidthMd-45{  
+            width: 500px;
+            @extend %D;
+                h2{
+                    @extend %D_h2;
+                }
+
+                button{
+                    @extend %D_Button;
+                }
+
+                form{
+                    label{
+                        @extend %D_Form;
+                    }
+                }
+        }  
+    }
+
+  
+// Main Dialog
+ 
+.Card{ 
+
+    @extend %D_Screen;
+
+            > div+div{   
+                width: $CardOuterWidth; 
+                background-color: $Dialog_BG;
+                height:auto;
+                margin:5% 10%;
+            }
+
+            .CardOuter{ 
+                position: relative;
+                margin:0;
+                padding:0;
+                border : 2px solid $Dialog_Border_Color;
+
+                .Image{
+                    
+                    
+                    height: auto;
+                    width:100%;
+                    padding-bottom:50px;
+
+                    .row{  margin:0; }
+                    .react-swipeable-view-container{
+                        height: 650px;
+                    }
+                }
+                .CardImage{
+                        padding:0;
+
+                    .ImageOverlay{
+                        
+                        font-family:$FontFamilyHeader;
+                        img{
+                            width:100%;
+                        }
+                        h1{
+                            color:$PrimaryColor;
+                            background-color:$color_1;
+                            display: table;
+                            margin: -24px 0 15px 20px;
+                            padding: 10px;
+                            position: relative;
+                            font-size: 1.5em;
+                            letter-spacing:1px;
+                            font-weight:800;
+                        }
+                        h2{
+                            color:$PrimaryColor;
+                            font-size: 1.8em;
+                            line-height: 1.1em;
+                            margin: 0 0 10px 0;
+                            margin: 0px 0 15px 20px;
+                            letter-spacing:1px;
+                            font-weight:800;
+                        }
+                        h3{
+                            font-family:$FontFamilyBody;
+                            color:$PrimaryColor;
+                            font-size:1em;
+                            margin: 0px 0 15px 20px;
+
+                            small{
+                                font-weight:100;
+                                font-size:.8em;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                .CardContent{
+                    position: relative;
+                    padding: $CardContentPadding;
+
+                    h2{  @extend %D_h2; }
+                    p{   @extend %D_p; 
+                    strong{ font-weight:800;}
+                        a{
+                            color:$TertiaryColor;
+                            
+                        }
+                    }
+                }
+
+ 
+                .CardBottomCTA{
+                    margin: 25px 0 15px 20px;
+                    
+                    p{
+                        color:$PrimaryColor;
+                        font-size:.9em;
+                        line-height: 1.3em;
+                        padding-bottom: 1px; 
+                        letter-spacing:1px;
+                        font-weight:100;
+
+                        a{
+                            color:#69D1CA;
+                        }
+                    }
+                }
+
+
+                .Counter{
+                    font-family: $FontFamilyHeader;
+                    color:white;
+                    position: absolute;
+                    right: 78px;
+                    bottom: 22px;
+                    width:30%;
+                    bottom: 2%;
+                    right: 1%;
+                    line-height:2em;
+                    text-align:center;
+                }
+                .Stepper{
+                    padding:0;
+                    background-color: $StepperBgColor;
+                    width: 30%; 
+                    position: absolute;
+                    bottom: .5%;
+                    right: .5%;
+                   
+                        svg{ border:2px solid $color_1; fill:white; font-size: 35px;}
+
+                }
+
+                div[class^="MuiMobileStepper-dot-"], div[class*=" MuiMobileStepper-dot-"]{
+                    background-color:$NonActiveDot;
+                    width:$DotWidth;
+                }
+                div[class^="MuiMobileStepper-dotActive-"], div[class*=" MuiMobileStepper-dotActive-"]{
+                    background-color:$ActiveDot;
+                }
+                button{
+                    color: $buttonColor;
+                    z-index: 1000;
+                }
+            }
+
+
+        .CloseCard{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9999; 
+            border:2px solid $color_1;
+            border-radius:unset;
+            height: 25px ;
+            width:25px;
+            margin:10px;
+
+            .material-icons{  
+                   
+                    color:white;
+                    font-size:.8em;
+                }
+           
+            
+        }
+    }
+}
+
+
+@at-root {
+
+// Responsive Amendments
+
+
+
+// Dialouge Heights. set height over 1200, under = auto
+.Card{
+    @media only screen and (min-width : 1500px) {
+        > div+div{   
+            margin:7% 28%;
+            width:44%;
+        }
+    }
+    @media only screen and (min-width : 1300px) and (max-width : 1500px){
+       
+        > div+div{   
+            margin:7% 20%;
+            width:60%;
+        }
+       
+
+    }
+
+    @media only screen and (min-width : 1200px)  and (max-width : 1300px){
+       
+        > div+div{   
+            margin:7% 15%;
+            width:70%;
+        }
+        .CardOuter { 
+                .Image{  height: auto;
+                    padding-bottom:50px;
+                .react-swipeable-view-container{ height: 700px; }}
+        }
+    }
+
+    @media only screen  and (max-width : 1200px) {
+        .CardOuter { 
+                .Image{ height: auto;
+                .react-swipeable-view-container{ height: auto; }}
+        }
+    }
+
+    @media only screen and (min-width : 992px)  and (max-width : 1024px) {
+        > div+div{   
+            margin:7% 10%;
+            width:80%;
+        }
+     }
+
+     @media only screen and (min-width : 768px)  and (max-width : 992px) {
+        > div+div{   
+            margin:7% 5%;
+            width:90%;
+        }
+        .CardOuter .CardImage .ImageOverlay h2{font-size: 1.8em; line-height: 1.1em;}
+     }
+
+     @media only screen and (min-width : 576px) and (max-width : 768px) {
+        > div+div{   
+            margin:7% 5% !important;
+            width:90%;
+        }
+        .CardOuter .Counter{  bottom:1.5%; }
+        .CardOuter .CardImage .ImageOverlay h2{font-size: 1.8em; line-height: 1.1em;}
+     }
+
+     @media only screen and (min-width : 480px) and (max-width : 576px) { 
+        > div+div{   
+            margin:7% 5% !important;
+            width:90%;
+        }
+        .CardOuter{
+            .Counter{  bottom:1.5%; }
+            .Stepper,.Counter{
+                width:50%;
+            }
+           .CardImage .ImageOverlay h2{font-size: 1.8em; line-height: 1.1em;}
+          
+        }
+     }
+     @media only screen and (min-width : 320px) and (max-width : 480px) { 
+        > div+div{   
+            margin:5% 5% !important;
+            width:90%;
+        }
+        .CardOuter{
+            .Counter{  bottom:1.1%; }
+            .Stepper,.Counter{
+                width:60%;
+            }
+            .CardImage .ImageOverlay h2{font-size: 1.6em; line-height: 1.2em;}
+        }
+     }
+}
+
+
+
+
+ /* Desktops and laptops ----------- */
+ 
+
+
+ @media only screen and (max-width : 768px) {}
+
+ @media only screen and (min-width : 768px) and (max-width : 991px) {}
+
+ @media only screen and (min-width : 576px) and (max-width : 768px) {}
+
+/* Medium Phones ----------- */
+@media only screen and (min-width : 480px) and (max-width : 576px) { }
+
+/* Small Phones ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) { }
+    
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) { } 
+}

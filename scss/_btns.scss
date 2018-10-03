@@ -1,0 +1,12 @@
+
+.FilterBar{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    
+    .FilterButton{
+        border:1px solid white;
+        color: white;
+        float: right;
+    }
+}
