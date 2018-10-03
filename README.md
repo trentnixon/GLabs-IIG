@@ -51,7 +51,7 @@ const reducers = combineReducers({
     })
 ```
 
-## Include the Application Styles to be processed:
+> Include the Application Styles to be processed:
 
 Navigation to: src/css/pages/_Main.scss and include the path to the Application styles
 
@@ -62,7 +62,7 @@ Navigation to: src/css/pages/_Main.scss and include the path to the Application 
 ```
 
 
-## Include the Application Data
+>  Include the Application Data
 
 Copy the application.json file found in > src/js/Application/iig/Json to the public location > public/json/
 
@@ -71,8 +71,9 @@ Copy the application.json file found in > src/js/Application/iig/Json to the pub
 
 #Installation Complete:
 
+## Project Editing
 
-##Editing the Application.
+> Editing the Application.
 
 All of the data found in the image grid can be traced back to the application.json file in the public folder.
 To add/remove/edit items use this file!
@@ -102,7 +103,7 @@ An example of the Grid Node from the Amex campaign is as follows
 
 ```
 
-## Editing the Layout
+> Editing the Layout
 
 In most cases the Grid layout can be edited via the CSS channels, mentioned below.
 However if you wish to change the number of items in the rows, use the “Griditem.js” file under  >iig/js to amend the col-* to how ever you wish
@@ -112,7 +113,7 @@ To edit the modal overlay navigation to: > src/js/Application/iig/js/stepper.js
 This file contains the basic layout of the modal overlay.
 
 
-## Styling the Application
+> Styling the Application
 
 All Applications pull from the shells theme styles from baseline colors and fonts. You do however have control over elements in a specific application.
 In the Application folder Navigate to >scss/_Application_Variables.scss for a host of settings for the grid layout and tone.
